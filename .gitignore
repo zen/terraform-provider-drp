@@ -3,3 +3,8 @@ bin
 terraform-provider-drp.zip
 terraform-provider-drp.sha256
 .terraform
+terraform-provider-drp
+terraform.tfstate
+terraform.tfstate.backup
+test.tf
+crash.log

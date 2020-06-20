@@ -1,11 +1,8 @@
-module github.com/rackn/terraform-provider-drp
+module github.com/rackn/terraform-provider-drpv4
 
-go 1.12
+go 1.13
 
 require (
-	github.com/VictorLowther/jsonpatch2 v1.0.0
-	github.com/digitalrebar/provision/v4 v4.0.10
-	github.com/go-test/deep v1.0.2
-	github.com/hashicorp/terraform v0.12.6
-	github.com/pborman/uuid v1.2.0
+	github.com/digitalrebar/provision/v4 v4.4.0-alpha02.0.20200619145752-e703c8a1c01a
+	github.com/hashicorp/terraform-plugin-sdk v1.14.0
 )
